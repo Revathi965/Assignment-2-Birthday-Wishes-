@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Philosopher:ital,wght@1,700&family=Risque&family=Spirax&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Leckerli+One&family=Philosopher:ital,wght@1,700&family=Risque&family=Spirax&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Charm:wght@700&family=Leckerli+One&family=Philosopher:ital,wght@1,700&family=Risque&family=Spirax&display=swap');
+.outline{
+    width: 100%;
+    height: 96vh;
+    position: relative;
+    border: 3px solid rgb(233, 7, 7);
+    overflow: hidden;
+    /* background-color: rgb(251, 219, 179); */
+}
+.frame{
+    filter: saturate(1.5);
+}
+.outer-ribbon{
+    float: right;
+    position: relative;
+    margin-top: 19px;
+    top: -2px;
+    left: 40px;
+    /* bottom: 5px; */
+    margin-left: 15px;
+}
+#outer-ribbon{
+    transform: rotate(45deg);
+    filter: saturate(4);
+}
+.middle{
+    width: 1465px;
+    height: 620px ;
+    position: relative;
+    bottom: 800px;
+    left: 20px ;
+    border: 3px solid rgb(230, 21, 21);
+    overflow: hidden;
+    box-shadow: 6px 6px 40px rgb(22, 22, 22);
+}
+.midimage{
+    width: 100%;
+    filter: saturate(4);
+}
+.middle .wish{
+    position: absolute;
+    padding: 4.5px;
+    margin-left: 90px;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Charm', cursive;
+    /* text-shadow: -4px -4px 10px rgb(183, 175, 175); */
+    background: -webkit-linear-gradient(rgb(4, 33, 42),rgb(201, 6, 6));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+.inside-1{
+    width: 900px;
+    height: 500px;
+    position: relative;
+    /* filter: saturate(2); */
+    bottom: 1365px;
+    left: 60px;
+    overflow: hidden;
+    border: 4px solid rgb(232, 34, 34);
+    box-shadow: 8px 8px 40px rgb(14, 14, 14);
+    border-radius: 40px;
+}
+.inside-1img{
+    position: absolute;
+    width: 100%;
+}
+.ribbon{
+    position: relative;
+    filter: saturate(2.2);
+    height: 200px;
+}
+.text{
+    position: absolute;
+    text-align: center;
+    bottom: 200px;
+    right: 200px;
+}
+.text .hb{
+    font-size: 4rem;
+    margin-bottom: 60px;
+    margin-left: 120px;
+    font-family: 'Berkshire Swash' , cursive; 
+    background: -webkit-linear-gradient(rgb(255, 25, 0),rgb(61, 3, 30));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+.text .warm{
+    font-size: 1.5rem;
+    font-family: 'Leckerli One', cursive;
+}
+.ballons{
+    position: relative;
+    filter: saturate(4);
+    float: right;
+    margin-top: 40px;
+    transform: rotateY(180deg);
+}
+.inside-2{
+    position: relative;
+    width: 420px;
+    height: 500px;
+    filter: saturate(2);
+    bottom: 1875px;
+    left: 1020px;
+    overflow: hidden;
+    border: 4px solid rgb(232, 22, 22);
+    box-shadow: 8px 8px 40px rgb(15, 14, 14);
+    border-radius: 50%;
+}
+.inside-2img{
+    position: absolute;
+    width: 900px;
+    height: 650px;
+    bottom: -50px;
+    /* border: 3px solid rgb(236, 24, 24); */
+    box-shadow: 8px 8px 40px rgb(15, 14, 14);
+}
+.profile{
+    margin: auto;
+    position: absolute;
+    top: 60px;
+    left: 90px;
+    width: 240px;  
+    /* 255 and 380 */
+    height: 360px;
+    transform: rotateY(180deg);
+    border: 3px solid rgb(227, 27, 27);
+    box-shadow: 8px 8px 40px rgb(0, 0, 0);
+    border-radius: 50%;
+}
